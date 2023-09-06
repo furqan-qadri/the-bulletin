@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Bulletin</title>
     <!-- Tachyons CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
     <!-- Material Icons -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <!-- Slick CSS -->
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
 
-    
+<body>
+    <!-- container -->
+    <div class="mw8 pa3 center">
+        <!-- header -->
+        <header class="flex flex-column pv3 tc bt bb">
+            <!-- navbar brand -->
+            <a href="" class="db navbar-brand f-headline tc black no-underline">The Bulletin</a>
+            <!-- /navbar brand -->
+            <!-- date -->
+            <p class="date gray"></p>
+            <!-- /date -->
+        </header>
+        <!-- header -->
+        <!-- Navigation -->
+        <nav class="flex flex-column flex-row-ns items-center mv3 mv1-ns">
+            <!-- flex item-search field -->
+            <input type="text" class="input-field w-100 w-third-ns order-1 order-0-ns pv2 pv3" placeholder="Search for articles"/>
+            <!-- /flex item-search field -->
+
+            <!-- flex item- main nav -->
+            <div class="flex items-center order-0 order-1-ns w-100 w two-thirds-ns mb2 mb0-ns pl0 pl4-ns overflow-hidden">
+                <!--flex item label for navigation -->
+                <label for="" class="flex items-center mr2 pv2 ph3 white bg-black">Categories <span class="material-icons">chevron_right</span></label>
+                <!-- label for navigation -->
+            </div>
+            <!-- /flex item- main nav -->
+        </nav>
+        <!-- /Navigation -->
+    </div>
+    <!-- container -->
+
+
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
@@ -33,11 +55,9 @@
 
 
     <!-- Slick JS -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Main JS -->
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
