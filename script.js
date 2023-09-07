@@ -24,3 +24,15 @@ $(function (){
         touchThreshold:1000,
     })
 })
+
+//slickjs
+
+$(function (){
+    $('.categories.slider').slick({
+        ininite:true,
+        arrows:false,
+        variableWidth:true,
+        swipeToSlide: true,
+        touchThreshold:1000,
+    });
+})
